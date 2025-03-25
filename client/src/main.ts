@@ -1,6 +1,6 @@
 import type { Listings } from "../../types/Listings";
 document.addEventListener("DOMContentLoaded", async () => {
-  const BASE_URL = "https://hudson-properties-dev.vercel.app";
+  const BASE_URL = "https://hudson-properties.vercel.app";
   const listingLoader = document.querySelector<HTMLDivElement>(
     `[dev-target=listing-loader]`
   );
