@@ -7,6 +7,7 @@ const acceptedOrigins = [
   "http://localhost:5173", // Vite default port
   "https://bx-hudson.webflow.io",
   "http://thearcadianbk.com",
+  "https://www.thearcadianbk.com",
 ];
 
 export function middleware(request: NextRequest) {
