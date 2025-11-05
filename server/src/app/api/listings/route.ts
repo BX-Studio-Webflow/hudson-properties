@@ -7,7 +7,7 @@ const REVALIDATE_SECONDS = 10 * 60;
 
 export async function GET() {
   try {
-    const baseURL = new URL(`https://nestiolistings.com/api/v2/listings/all`);
+    const baseURL = new URL(`https://nestiolistings.com/api/v2/listings/all/?property=8169`);
     const BASIC_AUTH_HEADER =
       "Basic " + Buffer.from(process.env.BASIC_AUTH!).toString("base64");
 
