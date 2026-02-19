@@ -102,8 +102,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     listingFloorPlan: HTMLLinkElement;
     listingDescription: HTMLElement;
   }) {
-    const desktopPhotos = listing.photos.slice(0, 3);
-    const tabletPhotos = listing.photos.slice(0, 8);
+    const desktopPhotos = listing.photos;
+    const tabletPhotos = listing.photos;
 
     imageListDesktopWrapper.innerHTML = "";
     imageItemTabletWrap.innerHTML = "";
