@@ -74,6 +74,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   function injectStyles(): void {
     const style = document.createElement("style");
     style.textContent = `
+      @media (max-width: 768px) {
+        [dev-target="image-list-desktop-wrapper"] {
+          display: none !important;
+        }
+      }
+
       .lp-lightbox-overlay {
         position: fixed;
         inset: 0;
