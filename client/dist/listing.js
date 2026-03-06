@@ -35,6 +35,18 @@ function ce(e){return e!==null&&typeof e=="object"&&"constructor"in e&&e.constru
         transition: opacity 0.15s;
       }
       .lp-lightbox-close:hover { opacity: 1; }
+
+      .swiper-button-next svg, .swiper-button-prev svg {
+      display: none;
+      }
+      .swiper-button-next:after, .swiper-button-prev:after{
+      color: #fff;
+      }
+      .swiper-pagination-fraction {
+        color: #fff;
+}
+
+
     `,document.head.appendChild(g)}function p({listing:g,listingWrapper:b,listingLoader:d,imageListDesktopWrapper:f,imageItemTabletWrap:m,imageItemTabletTemplate:y,listingTitle:w,listingPrice:L,listingFloorPlan:I,listingDescription:T}){const O=g.photos;f.innerHTML=`
       <div class="swiper lp-desktop-swiper">
         <div class="swiper-wrapper"></div>
